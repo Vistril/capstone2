@@ -14,6 +14,15 @@ a {
 table {
     border-color: #595959;
 }
+
+.topnav {
+    color: #c8c8c8;
+}
+
+.topnav a {
+    color: #565656;
+}
+
 ::placeholder {
     color: #aba8a0;
 }
