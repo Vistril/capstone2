@@ -1,53 +1,34 @@
 html {
     background-color: #323334 !important;
-    transition: 0.7s
 }
 html, body, input, textarea, select, button {
     background-color: #323334;
-    transition: 0.7s
 }
 html, body, input, textarea, select, button {
     border-color: #616161;
     color: #ceccca;
-    transition: 0.7s;
 }
 a {
     color: #468ddf;
-    transition: 0.7s;
 }
 table {
     border-color: #595959;
-    transition: 0.7s;
-}
-
-.topnav {
-    color: #c8c8c8;
-    transition: 0.7s;
-}
-
-.topnav a {
-    color: #565656;
-    transition: 0.7s;
 }
 
 ::placeholder {
     color: #aba8a0;
-    transition: 0.7s;
 }
 ::selection {
     background-color: #2065b9;
     color: #dfdfdf;
-    transition: 0.7s;
 }
 ::-moz-selection {
     background-color: #2065b9;
     color: #dfdfdf;
-    transition: 0.7s;
 }
 input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
     background-color: #5f6420 !important;
     color: #ceccca !important;
-    transition: 0.7s;
 }
