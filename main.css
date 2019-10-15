@@ -56,6 +56,11 @@ body {
     color: white;
 }
 
+.topnav a sup{
+    position: absolute;
+    transform: translate(2px, -5px);
+}
+
 .hidden-text {
     color: #c8c8c8;
 }
