@@ -1,13 +1,13 @@
 <html>
     <head>
-            <meta charset="UTF-8">
-            <meta name="description" content="Capstone page">
-            <link rel="stylesheet" href="main.css">
-            <link disabled id="dark-reader" rel="stylesheet" href="dark.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Capstone page">
+        <link rel="stylesheet" href="main.css">
+        <link disabled id="dark-reader" rel="stylesheet" href="dark.css">
     </head>
     <title>Seth's Capstone Page</title>
     <script>
-        const themeswitch = (e) => {
+        const themeswitch = (e)=>{
             let el = document.getElementById("dark-reader");
             if (el.disabled) {
                 el.disabled = false;
@@ -16,7 +16,8 @@
                 el.disabled = true;
                 localStorage.setItem("darkreader", "disabled");
             }
-        };
+        }
+        ;
         if (localStorage.getItem("darkreader") == "enabled") {
             document.getElementById("dark-reader").disabled = false;
         } else {
@@ -24,7 +25,9 @@
         }
     </script>
     <body>
-        <h1 style="color:#4a80c2"><em>Seth Camomile</em></h1>
+        <h1 style="color:#4a80c2">
+            <em>Seth Camomile</em>
+        </h1>
         <div style="margin-left: 70px; margin-right:70px;" class="topnav">
             <a id="button1" href="index.html">Home</a>
             <a id="button2" class="active" href="english.html">English</a>
@@ -33,10 +36,14 @@
             <a id="button4" href="javascript:void(0)" onclick="themeswitch();return false;">Switch Theme</a>
         </div>
         <div class="sidenav-english">
-            <a href="#sa">Short Answers</a><br>
-            <a href="#essays">Essays</a><br>
-            <a href="#br">Book Report</a><br>
-            <a href="#aow">AoW Responses</a><br>
+            <a href="#sa">Short Answers</a>
+            <br>
+            <a href="#essays">Essays</a>
+            <br>
+            <a href="#br">Book Report</a>
+            <br>
+            <a href="#aow">AoW Responses</a>
+            <br>
         </div>
     </body>
 </html>
