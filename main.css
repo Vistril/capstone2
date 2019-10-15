@@ -55,3 +55,7 @@ body {
     background-color: #4a80c2;
     color: white;
 }
+
+.sidenav-english a {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+}
