@@ -51,34 +51,7 @@ body {
     text-decoration: underline;
 }
 
-.nav-english a.active {
-    background-color: #4a80c2;
-    color: white;
-}
-
-.nav-english {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.nav-english a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
-    transition: 0.7s;
-}
-
-.nav-english a:hover {
-    background-color: #ddd;
-    color: black;
-    text-decoration: underline;
-}
-
-.nav-english a.active {
+.topnav a.active {
     background-color: #4a80c2;
     color: white;
 }
