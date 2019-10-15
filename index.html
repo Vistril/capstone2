@@ -17,6 +17,11 @@
                 localStorage.setItem("darkreader", "disabled");
             }
         };
+        if (localStorage.getItem("darkreader") == "enabled") {
+            document.getElementById("dark-reader").disabled = false;
+        } else {
+            document.getElementById("dark-reader").disabled = true;
+        }
     </script>
     <body>
         <h1 style="color:#4a80c2"><em>Seth Camomile</em></h1>
