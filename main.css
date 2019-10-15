@@ -51,35 +51,34 @@ body {
     text-decoration: underline;
 }
 
-.topnav a.active {
+.nav-english a.active {
     background-color: #4a80c2;
     color: white;
 }
 
-.sidenav {
+.nav-english {
     overflow: hidden;
     background-color: #333;
-    margin-left: 70px
 }
 
-.sidenav-english a {
+.nav-english a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
     transition: 0.7s;
 }
 
-.sidenav-english a:hover {
+.nav-english a:hover {
     background-color: #ddd;
     color: black;
     text-decoration: underline;
 }
 
-.sidenav-english a.active {
+.nav-english a.active {
     background-color: #4a80c2;
     color: white;
 }
