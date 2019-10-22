@@ -51,6 +51,9 @@
         } else {
             document.getElementById("dark-reader").disabled = true;
         }
+        const display = (id) => {
+            document.getElementById(id).style.display = 'block';
+        };
     </script>
     <body>
         <h1 style="color:#4a80c2">
@@ -67,9 +70,9 @@
             <a id="button1" href="#sa">Short Answers</a>
             <a id="button2" href="#ess">Essays</a>
             <a id="button3" href="#br">Book Report</a>
-            <a id="button4" href="#aow">AoW Responses</a>
+            <a id="button4" onclick='showText("aow")' href="#aow">AoW Responses</a>
         </div>
-        <div id="aow">
+        <div id="aow" style="display:none;">
             <h2>Article of The Week</h2>
         </div>
     </body>
