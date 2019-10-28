@@ -7,10 +7,6 @@
     </head>
     <title>Seth's Capstone Page</title>
     <style>
-        a {
-            margin-left: 90px;
-            font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif
-        }
         .nav-english {
             overflow: hidden;
             background-color: #333;
@@ -36,6 +32,11 @@
         .nav-english a.active {
             background-color: #4a80c2;
             color: white;
+        }
+        
+        .nav-aow-display {
+            margin-left: 90px;
+            font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif
         }
     </style>
     <script>
@@ -95,11 +96,13 @@
         </div><br>
         <div id="aow" style="display:none;">
             <h2>Article of The Week</h2>
-            <a href=''>AoW #1</a><br>
-            <a href=''>AoW #2</a><br>
-            <a href=''>AoW #3</a><br>
-            <a href=''>AoW #4</a><br>
-            <a href=''>AoW #5</a><br>
+            <div class='nav-aow-display'>
+                <a href=''>AoW #1</a><br>
+                <a href=''>AoW #2</a><br>
+                <a href=''>AoW #3</a><br>
+                <a href=''>AoW #4</a><br>
+                <a href=''>AoW #5</a><br>
+            </div>
         </div><br>              
     </body>
 </html>
