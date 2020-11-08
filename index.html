@@ -1,62 +1,53 @@
 <html>
-    <head>
-            <meta charset="UTF-8">
-            <meta name="description" content="Capstone page">
-            <link rel="stylesheet" href="main.css">
-            <link disabled id="dark-reader" rel="stylesheet" href="dark.css">
-    </head>
-    <title>Seth's Capstone Page</title>
-    <script>
-        const themeswitch = (e) => {
-            let el = document.getElementById("dark-reader");
-            if (el.disabled) {
-                el.disabled = false;
-                localStorage.setItem("darkreader", "enabled");
-            } else {
-                el.disabled = true;
-                localStorage.setItem("darkreader", "disabled");
-            }
-        };
-        if (localStorage.getItem("darkreader") == "enabled") {
-            document.getElementById("dark-reader").disabled = false;
-        } else {
-            document.getElementById("dark-reader").disabled = true;
-        }
-    </script>
-    <body>
-        <h1 style="color:#4a80c2"><em>Seth Camomile</em></h1>
-        <div style="margin-left: 70px; margin-right:70px;" class="topnav">
-            <a id="button1" class="active" href="index.html">Home</a>
-            <a id="button2" href="english.html">English</a>
-            <a id="button3" href="contact.html">Contact</a>
-            <a id="button3" href="about.html">About</a>
-            <a id="button5" href="capstone.html">Capstone</a>
-            <a id="button4" href="javascript:void(0)" style="vertical-align:text-top;" onclick="themeswitch();return false;">Go Dark!<sup>BETA</sup></a>
-        </div>
-        <h2>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Capstone page">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Abel&family=Rubik:wght@600&display=swap" rel="stylesheet">
+   </head>
+   <title>Home</title>
+   <body>
+      <center><img src="https://media.discordapp.net/attachments/764165455564767293/770517277056434176/GUAAAAASUVORK5CYII.png?width=320&height=105" id="logo"></center>
+      <br>
+      <div style="margin-left: 70px; margin-right:70px;" class="topnav">
+         <!-- awkward -->
+         <a id="button1" class="active" href="index.html">HOME</a>
+         <a id="button3" href="about.html">ABOUT</a>
+         <a id="button5" href="virtual.html">VIRTUAL</a>
+      </div>
+      <h2>
+        <strong>2020-11-07</strong><br>
+        Brand new look, same great taste! 
+      </h2>
+      <h3>
+        Been a while, hasn't it? We've overhauled the website to fit the new branding.<br>
+        - Removed English page<br>- Removed contact page, and moved it to About.<br>- Added a tab for the VR game.<br>- Removed shitty dark theme button<br>- Fun animations or something...?
+      </h3>
+         <h2>
+
             <strong>2020-1-13</strong><br>
             Q2 Portfolio Changes
-        </h2>
-        <h3>
+         </h2>
+         <h3>
             -Updated About page<br>-Added Q2 Portfolio stuff in English<br>-Added link to some1bot for Discord (WIP)<br>-Fine tuned Dark Theme
-        </h3>
-        <h2>
+         </h3>
+         <h2>
             <strong>2019-10-27</strong><br>
             English Section + Change Log
-        </h2>
-        <h3>
+         </h2>
+         <h3>
             English section of the page has been finished. Added nested tabs to it. Added a dark theme switcher (beta)
-        </h3>
-        <h2>
+         </h3>
+         <h2>
             <strong>2019-10-14</strong><br>
             Making the Site
-        </h2>
-        <h3>
+         </h2>
+         <h3>
             the site is under construction. most of the work will be put into the English section of the page.<br>
             estimated finish date: May 2021
-        </h3>
-        <h3 class="hidden-text">
+         </h3>
+         <h3 class="hidden-text">
             im a ninja
-        </h3>
-    </body>
+         </h3>
+   </body>
 </html>
