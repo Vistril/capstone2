@@ -1,6 +1,6 @@
 h1 {
     text-align:center;
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    font-family:Rubik;
     margin-left: 70px;
     margin-right: 70px;
     font-size:48pt;
@@ -9,24 +9,37 @@ h1 {
 }
 
 h2 {
-    color:#4a80c2;
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    color:#f25;
+    font-family:Rubik;
     margin-left: 70px;
     margin-right: 70px;
 }
 
 h3 {
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    font-family:Abel;
     margin-left: 90px;
+    color: #ddd;
+}
+
+h4 {
+    font-family:Abel;
+    
+    color: #ddd;
+}
+
+h5 {
+    font-family:Abel;
+    
+    color: #ddd;
 }
 
 p {
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    font-family:Abel;
     font-size: 15px;
 }
 
 body {
-    background-color:#c8c8c8
+    background-color: #181a1b;
     
 }
 
@@ -42,7 +55,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    font-family:Rubik;
     transition: 0.7s;
 }
 
@@ -53,7 +66,7 @@ body {
 } 
 
 .topnav a.active {
-    background-color: #4a80c2;
+    background-color: #f25;
     color: white;
 }
 
@@ -65,3 +78,34 @@ body {
 .hidden-text {
     color: #c8c8c8;
 }
+
+th {
+        text-align: left;
+    }
+
+    td {
+        padding-left: 150px;
+        text-align: right;
+        padding-top: 14px;
+    }
+            #name-list-1{
+          display: inline;
+          font-family: 'Rubik', sans-serif; 
+          text-align: left;
+          color:lightgray;
+          margin-left:70px;
+        }
+				
+        #name-list-3 {
+          display: inline;
+          font-family: 'Abel', sans-serif;
+          text-align: right;
+          color:lightgray;
+        }
+				
+        img.emoji {
+          height: 1em;
+          width: 1em;
+          margin: 0 .05em 0 .1em;
+          vertical-align: -0.1em;
+        }
