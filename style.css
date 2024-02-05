@@ -4,11 +4,13 @@ h1 {
     margin-left: 70px;
     margin-right: 70px;
     font-size:48pt;
-    margin-top:0px;
+    margin-top:15%;
     margin-bottom: 0px;
+    color: #f25;
 }
 
 h2 {
+    margin-top:10%;
     color:#f25;
     font-size:48pt;
     font-family:'Rubik';
@@ -18,7 +20,6 @@ h2 {
 
 h3 {
     font-family:Abel;
-    margin-left: 28%;
     color: #ddd;
 }
 
@@ -43,6 +44,7 @@ body {
     background-color: #181a1b;
     
 }
+
 /* im a ninja */
 .hiddentext {
     color: #181a1b;
@@ -53,9 +55,25 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(100px, auto);
 }
-
 .wrapper img {
   margin-left: 28%;
   width:50%; 
   height:auto;
+}
+
+a {
+    color: #f25;
+}
+a:visited {
+    color: #f25;
+}
+a:hover {
+    color: #f25;
+}
+a:active {
+    color: #f25;
+}
+
+img.emoji {
+    width: 1.5em;
 }
